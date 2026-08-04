@@ -11,10 +11,7 @@ Order Flow
 
 
 - - Auction Market Theory (AMT) -
-- - Price Discovery -
 - - Fair Value -
-- - Equilibrium -
-- - Disequilibrium -
 - - Exchanges -
 - - Trading Venue -
 - - ECNs -
@@ -65,19 +62,8 @@ Order Flow
 - - Spread -
 - - Order Book -
 - - Depth of Market (DOM) -
-- - Queue Position -
-- - Queue Priority -
-- - Price-Time Priority -
 - - Resting Orders -
 - - Executed Orders -
-- - Order Additions -
-- - Order Cancellations -
-- - Order Modifications -
-- - Top of Book -
-- - Level 1 Data -
-- - Level 2  -
-- - Full Depth Data -
-
 
 ```text
 [+] MODULE LOADED
@@ -86,16 +72,10 @@ Order Flow
 ## STEP 4 — BID-ASK SPREAD & LIQUIDITY
 
 
-- - Bid-Ask Spread -
-- - Effective Spread -
-- - Quoted Spread -
-- - Realized Spread -
 - - Visible Liquidity -
 - - Hidden Liquidity -
 - - Liquidity Pools -
 - - Liquidity Voids -
-- - Market Depth -
-- - Depth Dynamics -
 - - Liquidity Provision -
 - - Liquidity Consumption -
 - - Liquidity Taking -
@@ -106,64 +86,30 @@ Order Flow
 [+] MODULE LOADED
 ```
 
-## STEP 5 — TIME & SALES (TAPE READING)
-
-
-- - Time & Sales -
-- - Tape Reading -
-- - Trade Prints -
-- - Aggressor Side -
-- - Trade Size -
-- - Large Prints -
-- - Small Prints -
-- - Block Trades -
-- - Sweep Orders -
-- - Trade Sequencing -
-- - Tape Speed -
-- - Tape Momentum -
-- - Tape Exhaustion -
-
-
-```text
-[+] MODULE LOADED
-```
-
-## STEP 6 — MARKET DEPTH & IMBALANCE
+## STEP 5 — MARKET DEPTH & IMBALANCE
 
 
 - - Market Depth -
 - - Order Book Imbalance -
-- - Bid Imbalance -
-- - Ask Imbalance -
-- - Buy Pressure -
-- - Sell Pressure -
-- - Depth Shifts -
 - - Liquidity Stacking -
 - - Liquidity Pulling -
-- - Queue Dynamics -
-- - Book Pressure Analysis -
 
 
 ```text
 [+] MODULE LOADED
 ```
 
-## STEP 7 — VOLUME PROFILE & MARKET PROFILE
+## STEP 6 — VOLUME PROFILE & MARKET PROFILE
 
 
 - - Volume Profile -
-- - Market Profile -
-- - TPO Profile -
 - - Point of Control (POC) -
 - - Value Area -
 - - Value Area High (VAH) -
 - - Value Area Low (VAL) -
 - - High Volume Nodes (HVN) -
 - - Low Volume Nodes (LVN) -
-- - Developing POC -
 - - Session Profile -
-- - Composite Profile -
-- - Volume Distribution -
 - - Acceptance -
 - - Rejection -
 
@@ -172,16 +118,10 @@ Order Flow
 [+] MODULE LOADED
 ```
 
-## STEP 8 — FOOTPRINT / CLUSTER / HEATMAP
+## STEP 7 — HEATMAP
 
 
-- - Footprint Charts -
-- - Cluster Charts -
 - - Heatmaps -
-- - Bid × Ask Footprints -
-- - Volume Footprints -
-- - Cluster Delta -
-- - Volume Clusters -
 - - Stacked Imbalances -
 - - Heatmap Liquidity -
 - - Order Flow Visualization -
@@ -192,48 +132,11 @@ Order Flow
 [+] MODULE LOADED
 ```
 
-## STEP 9 — DELTA & CUMULATIVE DELTA
-
-
-- - Delta -
-- - Bid Delta -
-- - Ask Delta -
-- - Net Delta -
-- - Cumulative Delta -
-- - Delta Divergence -
-- - Delta Confirmation -
-- - Delta Reversal Signals -
-- - Aggressive Buying -
-- - Aggressive Selling -
-
-
-```text
-[+] MODULE LOADED
-```
-
-## STEP 10 — ORDER FLOW IMBALANCE (OFI)
-
-
-- - Order Flow Imbalance -
-- - OFI Models -
-- - Buying Pressure Metrics -
-- - Selling Pressure Metrics -
-- - Signed Volume -
-
-
-```text
-[+] MODULE LOADED
-```
-
-## STEP 11 — ABSORPTION VS AGGRESSION
+## STEP 8 — ABSORPTION VS AGGRESSION
 
 
 - - Absorption -
 - - Aggression -
-- - Initiative Buyers -
-- - Initiative Sellers -
-- - Responsive Buyers -
-- - Responsive Sellers -
 - - Absorption Zones -
 - - Exhaustion -
 - - Trapped Traders -
@@ -244,7 +147,7 @@ Order Flow
 [+] MODULE LOADED
 ```
 
-## STEP 12 — ICEBERG & HIDDEN LIQUIDITY
+## STEP 9 — ICEBERG & HIDDEN LIQUIDITY
 
 
 - - Iceberg Orders -
@@ -262,18 +165,15 @@ Order Flow
 [+] MODULE LOADED
 ```
 
-## STEP 13 — STOP HUNTS & LIQUIDITY POOLS
+## STEP 10 — STOP HUNTS & LIQUIDITY POOLS
 
 
 - - Stop Hunts -
 - - Stop Runs -
 - - Liquidity Sweeps -
 - - Liquidity Grabs -
-- - Liquidity Raids -
 - - Buy-Side Liquidity -
 - - Sell-Side Liquidity -
-- - Equal Highs -
-- - Equal Lows -
 - - Stop Clusters -
 - - Forced Liquidations -
 
@@ -282,77 +182,21 @@ Order Flow
 [+] MODULE LOADED
 ```
 
-## STEP 14 — VWAP, TWAP, POV
-
-
-- - VWAP -
-- - Anchored VWAP -
-- - TWAP -
-- - POV Algorithms -
-- - Participation Rate -
-- - Institutional Algorithms -
-- - Execution Tracking -
-
-
-```text
-[+] MODULE LOADED
-```
-
-## STEP 15 — MARKET IMPACT & TRANSACTION COSTS
-
-
-- - Slippage -
-- - Transaction Costs -
-- - Market Impact -
-- - Temporary Impact -
-- - Permanent Impact -
-- - Explicit Costs -
-- - Implicit Costs -
-- - Arrival Price -
-- - Execution Costs -
-- - Realized Costs -
-
-
-```text
-[+] MODULE LOADED
-```
-
-## STEP 16 — LIQUIDITY PROVIDERS & MARKET MAKERS
+## STEP 11 — LIQUIDITY PROVIDERS & MARKET MAKERS
 
 
 - - Market Makers -
 - - Liquidity Providers -
 - - Two-Sided Quoting -
-- - Spread Capture -
-- - Inventory Risk
-- - Quote Management -
 - - Market Making Models -
 - - Maker-Taker Fees -
-- - Rebate Trading -
 
 
 ```text
 [+] MODULE LOADED
 ```
 
-## STEP 17 — MATCHING ENGINE MECHANICS
-
-
-- - Matching Engine -
-- - Price-Time Priority -
-- - Pro-Rata Matching -
-- - Order Matching Rules -
-- - Fill Mechanics -
-- - Queue Mechanics -
-- - Execution Logic -
-- - Trade Matching -
-
-
-```text
-[+] MODULE LOADED
-```
-
-## STEP 18 — EXCHANGE AUCTIONS
+## STEP 12 — EXCHANGE AUCTIONS
 
 
 - - Opening Auction -
@@ -369,7 +213,7 @@ Order Flow
 [+] MODULE LOADED
 ```
 
-## STEP 19 — TICK DATA & BOOK RECONSTRUCTION
+## STEP 13 — TICK DATA & BOOK RECONSTRUCTION
 
 
 - - Tick Data -
@@ -379,33 +223,13 @@ Order Flow
 - - Tick Aggregation -
 - - Book Reconstruction -
 - - Event Processing -
-- - Historical Order Book -
-- - Tick Storage -
-- - Tick Cleaning -
 
 
 ```text
 [+] MODULE LOADED
 ```
 
-## STEP 20 — VPIN & FLOW TOXICITY
-
-
-- - VPIN -
-- - Flow Toxicity -
-- - Toxic Order Flow -
-- - Adverse Selection -
-- - Informed Trading Detection -
-- - Liquidity Risk -
-- - Information Risk -
-- - Toxic Flow Analysis -
-
-
-```text
-[+] MODULE LOADED
-```
-
-## STEP 21 — AUCTION THEORY & ADVERSE SELECTION
+## STEP 14 — AUCTION THEORY & ADVERSE SELECTION
 
 
 - - Kyle Model -
@@ -422,45 +246,6 @@ Order Flow
 ```text
 [+] MODULE LOADED
 ```
-
-## STEP 22 — HIGH-FREQUENCY TRADING & LATENCY ARBITRAGE
-
-
-- - HFT -
-- - Colocation -
-- - Latency -
-- - Latency Arbitrage -
-- - Exchange Connectivity -
-- - Statistical Arbitrage -
-- - HFT Market Making -
-- - Low-Latency Systems -
-- - Quote Stuffing -
-- - Order Anticipation -
-
-
-```text
-[+] MODULE LOADED
-```
-
-## STEP 23 — BACKTESTING & TICK-LEVEL SIMULATION
-
-
-- - Backtesting -
-- - Tick-Level Backtesting -
-- - Event-Driven Simulation -
-- - Fill Modeling -
-- - Slippage Modeling -
-- - Commission Modeling -
-- - Survivorship Bias -
-- - Look-Ahead Bias -
-- - Data Snooping Bias -
-- - Walk-Forward Testing -
-- - Monte Carlo Analysis -
-- - Robustness Testing -
-- - Strategy Validation -
-
-
----
 
 # [DATABASE] TERMS OF ORDERFLOW
 
@@ -575,9 +360,6 @@ Order Flow
 
 # [TOOLS] BEST SOFTWARE
 
-
-- *ATAS*
 - *Bookmap*
 - *Deepcharts*
 - *DeepDom*
-- *Motivewave*
